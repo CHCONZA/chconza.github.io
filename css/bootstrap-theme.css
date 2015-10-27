@@ -358,14 +358,17 @@ fieldset[disabled] .btn-danger.active {
   color: #191a27;
   background-color: #191a27;
 }
+.navbar-inverse .navbar-nav > .active:hover > a {
+   background-color: #383b63;
+}
+
+.navbar-inverse .navbar-nav > li:hover > a {
+   background-color: #222438;
+}
+
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .active > a {
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff080808', endColorstr='#ff0f0f0f', GradientType=0);
   background-color: #2d2f49;
-  background-repeat: repeat-x;
-  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
-          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
-
 }
 .navbar-inverse .navbar-brand;
 .navbar-inverse .navbar-nav > li > a {
