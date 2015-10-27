@@ -347,7 +347,7 @@ fieldset[disabled] .btn-danger.active {
 
 .navbar-brand,
 .navbar-nav > li > a {
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
 }
 .navbar-inverse {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
@@ -372,7 +372,6 @@ fieldset[disabled] .btn-danger.active {
 }
 .navbar-inverse .navbar-brand;
 .navbar-inverse .navbar-nav > li > a {
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
 }
 .navbar-static-top,
 .navbar-fixed-top,
