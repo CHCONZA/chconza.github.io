@@ -93,7 +93,7 @@ A cookie may be stored depending on the language chosen.
    </div>
    <header>
       <div class="row">
-       <div class="col-md-12 padding-0">
+       <div class="padding-0">
            <img src="../assets/img/LONG_1.png" />
        </div>
       </div>
@@ -111,7 +111,7 @@ A cookie may be stored depending on the language chosen.
    </div>
    <header>
       <div class="row">
-       <div class="col-md-12 padding-0">
+       <div class="padding-0">
            <img src="../assets/img/LONG_2.png" />
        </div>
       </div>
@@ -160,6 +160,8 @@ A cookie may be stored depending on the language chosen.
    <script>
    window.onload = function()
    {
+       //Disable x scrollbar (Issue with full width containers! No idea what's going on):
+      $("body").css("overflow-x", "hidden");
       for(var a = 0; a < window.location.href.length; a++)
       {
          var charOut = window.location.href[a];

@@ -39,8 +39,12 @@ A cookie may be stored depending on the language chosen.
 
     <link href="css/bootstrap-theme.css" rel="stylesheet">
 
+
+    <!-- Fonts: -->
+   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
-<!-- Fixed navbar -->
+
+   <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -55,25 +59,110 @@ A cookie may be stored depending on the language chosen.
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="en/about.html">About</a></li>
-            <li><a href="en/contact.html">Contact</a></li>
-            <li><a href="es/index.html">Español</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="es/index.html">Spanish</a></li>
+            <li class="divider-vertical" />
+            <li><a href="#nosotros">CONZA</a></li>
+            <li><a href="#comienzos">History</a></li>
+            <li><a href="#experiencia">Experience</a></li>
           </ul>
        </div><!--/.nav-collapse -->
       </div>
     </nav>
     <div class="container theme-showcase" role="main">
       <div id="welcome" class="jumbotron">
-        <h1>Welcome! (WIP)</h1>
-        <p>You can navigate around using the navbar!<br>
-        The spanish website is being built before the English one!</p>
+        <h1>¡Bienvenido! (En Desarrollo)</h1>
+        <p>Puedes navegar usando la barra de navegación</p>
       </div>
    </div>
+
+
+
+   <div class="container .container-fluid">
+      <a name="nosotros"></a>
+      <br>
+      <h1>CONZA</h1>
+      <hr>
+      <tx1>
+         <i>Construcciones Hidráulicas Conde Zapata</i>, <b>CONZA</b>, Firm founded on <b>2007</b>, is organized out of the
+         infrastructure and staff of <b>HIDROTEL Montajes</b>
+
+         <br>
+         <br>
+      </txt1>
+   </div>
+   <header>
+      <div class="row">
+       <div class="padding-0">
+           <img src="assets/img/LONG_1.png" />
+       </div>
+      </div>
+   </header>
+   <div class="container .container-fluid">
+      <a name="comienzos"></a>
+      <h1>History</h1>
+      <hr>
+      <tx1>
+          Started on 2001. CONZA began as a Civil Hydraulic
+          Works specialist, working in direct coordination with HIDROTEL, and has progressively acquired
+          <b>competences and responsibilities</b> in all its fields of activity. Although being a younger Company,
+          once unified its Administrative and Technical Management on 2009 with HIDROTEL, nowadays is in the
+          group the one developing activities concerning <b>Project development and control</b>, <b>on site works</b> and
+          <b>job execution</b>.
+
+            <br>
+            <br>
+      </tx1>
+   </div>
+   <header>
+      <div class="row">
+       <div class="padding-0">
+           <img src="assets/img/LONG_2.png" />
+       </div>
+      </div>
+   </header>
+   <div class="container .container-fluid">
+      <a name="experiencia"></a>
+      <h1>Experience</h1>
+      <hr>
+         <tx1>
+            Having its unified Technical Management more than <b>twenty five years of deep
+            experience</b> in the water control and monitoring business, both around <b>Spain
+            and abroad, (Germany, France, Australia, North and South Americas)</b>, and having
+            been awarded and executed a <b>significant  number of projects</b> and works of consideration
+            in the national hydrological market, CONZA offers its services as a specialist in
+            environmental control turnkey projects and integrated solutions –<b>including civil works,
+            sensors and instruments, communications and information systems</b>- to all Public and Private
+            Agencies, Firms and concerned particulars.
+
+            <br>
+            <br>
+
+         </tx1>
+      </div>
+   </div>
+   <div class="footer">
+         <div class="row">
+            <div class="col-md-4"><fp1>Website by TajamSoft!</fp1></div>
+            <div class="col-md-4"><fp1>© Copyright CHConza, 2007-2015. All rights reserved.</fp1></div>
+         </div>
+         <div class="row">
+            <fhr>
+         </div>
+         <div class="row">
+            <div class="col-md-4"><fp1>Contact mail:</fp1></div>
+            <div class="col-md-4"><fp1>conza@chconza.com</fp1></div>
+         </div>
+   </div>
+
+   <!--<a HREF="mailto:?subject=Contact By Antonio&body=Hi, I have found an issue in your website!">Submit</a>-->
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
 
 
     <!-- Actual Scripts -->
@@ -83,6 +172,8 @@ A cookie may be stored depending on the language chosen.
    <script>
    window.onload = function()
    {
+       //Disable x scrollbar (Issue with full width containers! No idea what's going on):
+      $("body").css("overflow-x", "hidden");
       for(var a = 0; a < window.location.href.length; a++)
       {
          var charOut = window.location.href[a];
@@ -98,5 +189,6 @@ A cookie may be stored depending on the language chosen.
    };
 
    </script>
+
   </body>
 </html>
