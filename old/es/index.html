@@ -29,8 +29,6 @@ A cookie may be stored depending on the language chosen.
    <meta name="author" content="CHCONZA - Website by Tatjam, TajamSoft">
    <meta name="description" content="Environmental Information Technologies">
    <meta name="keywords" content="chconza,conza,Environmental Information Technologies">
-   <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'>
-   <link rel="stylesheet" href="../stylesheet.css" type="text/css">
    <!-- All kinds of fav-icons (We are on the root folder, so not directory requirement)-->
    <link rel="icon" type="image/png" href="../assets/favicons/favicon-32x32.png" sizes="32x32">
    <link rel="icon" type="image/png" href="../assets/favicons/favicon-194x194.png" sizes="194x194">
@@ -48,7 +46,7 @@ A cookie may be stored depending on the language chosen.
     <!-- Fonts: -->
    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
-
+<body>
    <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -64,7 +62,24 @@ A cookie may be stored depending on the language chosen.
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Inicio</a></li>
-            <li><a href="about.html">Acerca</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acerca <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="about.html"><b>Acerca de Nosotros</b></a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#"><b>Campos de Aplicación</b></a></li>
+                    <li><a href="#">Control de Parametros Medioambientales</a></li>
+                    <li><a href="#">Sistemas de transmisión de datos M2M</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Sistemas de Gestión y Tratamiento de la información</a></li>
+                    <li><a href="#">Distribución de Información y su Acceso</a></li>
+                    <li><a href="#">Pequeña Obra Civil Hidráulica</a></li>
+                    <li><a href="#">Instalación, Mantenimiento y Servicio Post-Venta</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Memorias y Gestión de la Adecuación a la Normativa Vigente</a></li>
+                    <li><a href="#">Realización de Recomendaciones de Aplicación</a></li>
+                </ul>
+            </li>
             <li><a href="contact.html">Contacto</a></li>
             <li><a href="../index.html">English</a></li>
             <li class="divider-vertical" />
@@ -75,6 +90,7 @@ A cookie may be stored depending on the language chosen.
        </div><!--/.nav-collapse -->
       </div>
     </nav>
+
     <div class="container theme-showcase" role="main">
       <div id="welcome" class="jumbotron">
         <h1>¡Bienvenido! (En Desarrollo)</h1>
@@ -83,7 +99,7 @@ A cookie may be stored depending on the language chosen.
    </div>
 
 
-
+   <div class "container">
    <div class="container .container-fluid">
       <a name="nosotros"></a>
       <br>
@@ -96,6 +112,7 @@ A cookie may be stored depending on the language chosen.
             subterránea.<br><br>
       </txt1>
    </div>
+
    <header>
       <div class="row">
        <div class="padding-0">
@@ -133,8 +150,8 @@ A cookie may be stored depending on the language chosen.
             públicas</b> como a <b>Empresas y particulares</b>.<br><br>
 
          </tx1>
-      </div>
    </div>
+
    <div class="footer">
          <div class="row">
             <div class="col-md-4"><fp1>Website by TajamSoft!</fp1></div>
@@ -147,6 +164,7 @@ A cookie may be stored depending on the language chosen.
             <div class="col-md-4"><fp1>Contact mail:</fp1></div>
             <div class="col-md-4"><fp1>conza@chconza.com</fp1></div>
          </div>
+   </div>
    </div>
 
    <!--<a HREF="mailto:?subject=Contact By Antonio&body=Hi, I have found an issue in your website!">Submit</a>-->

@@ -1,0 +1,170 @@
+.jumbotron {
+    padding-top: 100px;
+    background-color: #5883dc;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    font: 400 15px Roboto Condensed, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+.container-fluid {
+    padding: 60px 15%;
+}
+
+.logo-image {
+    height: auto;
+    max-width: 80%;
+    width: 50%;
+}
+
+.logo-text {
+    height: auto;
+    max-width: 80%;
+    width: 50%;
+}
+
+
+
+
+.navbar {
+    background-color: #6d93e1;
+    z-index: 9999;
+    border-radius: 0px;
+    border-color: #90ace5;
+    padding-bottom: 5;
+    font-size: 24px !important;
+    line-height: 5px !important;
+    letter-spacing: 4px;
+
+}
+
+.navbar-left {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    overflow: visible;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #476db8 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #ff00ff !important;
+}
+
+
+@media screen and (min-width: 768px) {
+    .logo {
+        font-size: 200px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .logo {
+        font-size: 150px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.softText {
+    font-size: 15px;
+    color: #5e5e5e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.grayBackground {
+    background-color: #f6f6f6;
+}
+
+
+.footer {
+    background-color: #6d93e1;
+}
+
+.footText {
+    color: #b7ccf9;
+}
+
+
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0%);
+        -webkit-transform: scaleX(0%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+        -webkit-transform: scaleX(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0%);
+        -webkit-transform: scaleX(0%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+        -webkit-transform: scaleX(0%);
+    }
+}

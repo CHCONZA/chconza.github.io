@@ -1,197 +1,136 @@
 <!DOCTYPE html>
-<!--
-
-Website made by Tatjam (TajamSoft) for CHCONZA
-Published at github.
-
-
-This is the english website.
-
-The main index.html will be a language selector!
-
-"chconza.es" will redirect to "/es" and
-"chconza.com" will redirect to the selection page
-
-A cookie may be stored depending on the language chosen.
-
-
--->
-<html>
+<html lang="en">
 <head>
-   <!-- Boiler Plate HTML code -->
-
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-   <meta charset="UTF-8">
-   <title>CHConza (Work In Progress!)</title>
-   <meta name="author" content="CHCONZA - Website by Tatjam, TajamSoft">
-   <meta name="description" content="Environmental Information Technologies">
-   <meta name="keywords" content="chconza,conza,Environmental Information Technologies">
-   <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'>
-   <link rel="stylesheet" href="stylesheet.css" type="text/css">
-   <!-- All kinds of fav-icons (We are on the root folder, so not directory requirement)-->
-   <link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32">
-   <link rel="icon" type="image/png" href="assets/favicons/favicon-194x194.png" sizes="194x194">
-   <link rel="icon" type="image/png" href="assets/favicons/favicon-96x96.png" sizes="96x96">
-   <link rel="icon" type="image/png" href="assets/favicons/android-chrome-192x192.png" sizes="192x192">
-   <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16">
-   <link rel="shortcut icon" href="assets/favicons/favicon.ico" type="image/vnd.microsoft.icon">
-
-   <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
-
-
-    <!-- Fonts: -->
-   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <title>Conza</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
 
-   <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="assets/logo.svg" height=50 style="margin: -15px 0"></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-left"><img src="img/logo.svg"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="es/index.html">Spanish</a></li>
-            <li class="divider-vertical" />
-            <li><a href="#nosotros">CONZA</a></li>
-            <li><a href="#comienzos">History</a></li>
-            <li><a href="#experiencia">Experience</a></li>
-          </ul>
-       </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-    <div class="container theme-showcase" role="main">
-      <div id="welcome" class="jumbotron">
-        <h1>¡Bienvenido! (En Desarrollo)</h1>
-        <p>Puedes navegar usando la barra de navegación</p>
-      </div>
-   </div>
+        <div class ="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#about">About</a></li>
+                <li><a href="#history">History</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
+<div class="jumbotron text-center">
+  <img src="img/logogray.svg" class="logo-image"></img>
+  <p>Civil Works (Website work in progress!)</p>
+</div>
 
-
-   <div class="container .container-fluid">
-      <a name="nosotros"></a>
-      <br>
-      <h1>CONZA</h1>
-      <hr>
-      <tx1>
-         <i>Construcciones Hidráulicas Conde Zapata</i>, <b>CONZA</b>, Firm founded on <b>2007</b>, is organized out of the
-         infrastructure and staff of <b>HIDROTEL Montajes</b>
-
-         <br>
-         <br>
-      </txt1>
-   </div>
-   <header>
-      <div class="row">
-       <div class="padding-0">
-           <img src="assets/img/LONG_1.png" />
-       </div>
-      </div>
-   </header>
-   <div class="container .container-fluid">
-      <a name="comienzos"></a>
-      <h1>History</h1>
-      <hr>
-      <tx1>
-          Started on 2001. CONZA began as a Civil Hydraulic
-          Works specialist, working in direct coordination with HIDROTEL, and has progressively acquired
-          <b>competences and responsibilities</b> in all its fields of activity. Although being a younger Company,
-          once unified its Administrative and Technical Management on 2009 with HIDROTEL, nowadays is in the
-          group the one developing activities concerning <b>Project development and control</b>, <b>on site works</b> and
-          <b>job execution</b>.
-
+<div class="container-fluid" id="about">
+    <div class="row">
+        <div class="col-sm-4">
+            <span class="glyphicon glyphicon-user logo"></span>
+        </div>
+        <div class="col-sm-8">
+            <h2>About us</h2>
+            <h4>Construcciones Hidráulicas Conde Zapata, CONZA</h4>
+            <p class="softText">
+                Founded on 2007 and organised out of the infrastructure
+                and staff of HIDROTEL Montajes, began as a Civil
+                Hydraulic Works specialist, working in direct coordination
+                with HIDROTEL, and has progressively acquired competences
+                and responsabilities in all its fields of activity.
+            </p>
             <br>
+            <h4 class="">A younger alternative</h4>
+            <p class="softText">
+                Even thought we are a young company, with
+                our Administrative and Technical Management
+                unified on 2009 with HIDROTEL, we are a growing,
+                innovative group, which is developing activities
+                concerning Project development and control, on site works
+                and job execution.
+            </p>
             <br>
-      </tx1>
-   </div>
-   <header>
-      <div class="row">
-       <div class="padding-0">
-           <img src="assets/img/LONG_2.png" />
-       </div>
-      </div>
-   </header>
-   <div class="container .container-fluid">
-      <a name="experiencia"></a>
-      <h1>Experience</h1>
-      <hr>
-         <tx1>
-            Having its unified Technical Management more than <b>twenty five years of deep
-            experience</b> in the water control and monitoring business, both around <b>Spain
-            and abroad, (Germany, France, Australia, North and South Americas)</b>, and having
-            been awarded and executed a <b>significant  number of projects</b> and works of consideration
-            in the national hydrological market, CONZA offers its services as a specialist in
-            environmental control turnkey projects and integrated solutions –<b>including civil works,
-            sensors and instruments, communications and information systems</b>- to all Public and Private
-            Agencies, Firms and concerned particulars.
+            <button class="btn btn-default btn-lg">Read more</button>
+        </div>
+    </div>
+</div>
 
-            <br>
-            <br>
+<div class="container-fluid grayBackground" id="history">
+    <div class="row">
 
-         </tx1>
-      </div>
-   </div>
-   <div class="footer">
-         <div class="row">
-            <div class="col-md-4"><fp1>Website by TajamSoft!</fp1></div>
-            <div class="col-md-4"><fp1>© Copyright CHConza, 2007-2015. All rights reserved.</fp1></div>
-         </div>
-         <div class="row">
-            <fhr>
-         </div>
-         <div class="row">
-            <div class="col-md-4"><fp1>Contact mail:</fp1></div>
-            <div class="col-md-4"><fp1>conza@chconza.com</fp1></div>
-         </div>
-   </div>
-
-   <!--<a HREF="mailto:?subject=Contact By Antonio&body=Hi, I have found an issue in your website!">Submit</a>-->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <div class="col-sm-8">
+            <h2>What do we do</h2>
+            <h4>This is a sub header</h4>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+        </div>
+        <div class="col-sm-4 slideanim">
+            <span class="glyphicon glyphicon-book logo"></span>
+        </div>
+    </div>
+</div>
 
 
-    <!-- Actual Scripts -->
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-sm-4 slideanim">
+            <span class="glyphicon glyphicon-book logo"></span>
+        </div>
+        <div class="col-sm-8">
+            <h2>Our History</h2>
+            <h4>This is a sub header</h4>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+        </div>
+    </div>
+</div>
 
-    <!-- Auto-load redirect to spanish page
-    Will redirect to the spanish page if the url contains "?es" -->
-   <script>
-   window.onload = function()
-   {
-       //Disable x scrollbar (Issue with full width containers! No idea what's going on):
-      $("body").css("overflow-x", "hidden");
-      for(var a = 0; a < window.location.href.length; a++)
-      {
-         var charOut = window.location.href[a];
-         if(charOut == "?")
-         {
-            if(window.location.href[a + 1] == 'e' &&
-               window.location.href[a + 2] == 's')
-               {
-                  top.location='es/index.html'
-               }
-         }
-      }
-   };
+<div class="container-fluid footer" id="footer">
+    <div class="col-sm-8">
+        <h2>(c) CHConza 2009-2016</h2>
+        <p class="footText">Website made by Tatjam, using Bootstrap 3.0</p>
+        <p class="footText">For any suggestions or problems with the web, mail to: chconza@chconza.es</p>
+        <a href="#">Go to top</a>
+    </div>
+</div>
 
-   </script>
 
-  </body>
+<script>
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(window).scroll(function() {
+   $(".slideanim").each(function(){
+     var pos = $(this).offset().top;
+
+     var winTop = $(window).scrollTop();
+     if (pos < winTop + 600) {
+       $(this).addClass("slide");
+     }
+   });
+ });
+})
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</body>
 </html>
