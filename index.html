@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Conza</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-left"><img src="img/logo.svg"></a>
+        </div>
+        <div class ="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#about">About</a></li>
+                <li><a href="#history">History</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <img src="img/logogray.svg" class="logo-image"></img>
+  <p>Civil Works (Website work in progress!)</p>
+</div>
+
+<div class="container-fluid" id="about">
+    <div class="row">
+        <div class="col-sm-4">
+            <span class="glyphicon glyphicon-user logo"></span>
+        </div>
+        <div class="col-sm-8">
+            <h2>About us</h2>
+            <h4>Construcciones Hidráulicas Conde Zapata, CONZA</h4>
+            <p class="softText">
+                Founded on 2007 and organised out of the infrastructure
+                and staff of another Firm dedicated mainly to hydrological work,
+                began as a Civil Hydraulic Works specialist, working in direct coordination
+                with other Companies, and has progressively acquired competences
+                and responsabilities in all its fields of activity.
+            </p>
+            <br>
+            <h4 class="">A younger alternative</h4>
+            <p class="softText">
+                Even thought we are a young company, we are a growing
+                as an innovative group, which is developing activities
+                concerning Project development and control, on site works
+                and job execution related to all fields of environmental monitoring and hydrological surveys.
+            </p>
+            <br>
+            <button class="btn btn-default btn-lg">Read more</button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid grayBackground" id="history">
+    <div class="row">
+
+        <div class="col-sm-8">
+            <h2>What do we do</h2>
+            <h4>This is a sub header</h4>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+        </div>
+        <div class="col-sm-4 slideanim">
+            <span class="glyphicon glyphicon-book logo"></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-sm-4 slideanim">
+            <span class="glyphicon glyphicon-book logo"></span>
+        </div>
+        <div class="col-sm-8">
+            <h2>Our History</h2>
+            <h4>This is a sub header</h4>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+            <p class="softText">This is some text to the sub header. This is some text to the sub header. This is some text to the sub header</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid footer" id="footer">
+    <div class="col-sm-8">
+        <h2>(c) CHConza 2009-2016</h2>
+        <p class="footText">Website made by Tatjam, using Bootstrap 3.0</p>
+        <p class="footText">For any suggestions or problems with the web, mail to: chconza@chconza.es</p>
+        <a href="#">Go to top</a>
+    </div>
+</div>
+
+
+<script>
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(window).scroll(function() {
+   $(".slideanim").each(function(){
+     var pos = $(this).offset().top;
+
+     var winTop = $(window).scrollTop();
+     if (pos < winTop + 600) {
+       $(this).addClass("slide");
+     }
+   });
+ });
+})
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</body>
+</html>
