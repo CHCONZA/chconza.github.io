@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--
+
+Website made by Tatjam (TajamSoft) for CHCONZA
+Published at github.
+
+
+This is the english website.
+
+The main index.html will be a language selector!
+
+"chconza.es" will redirect to "/es" and
+"chconza.com" will redirect to the selection page
+
+A cookie may be stored depending on the language chosen.
+
+
+-->
+
+<html>
+<head>
+   <!-- Boiler Plate HTML code -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <meta charset="UTF-8">
+   <title>CHConza (Work In Progress!)</title>
+   <meta name="author" content="CHCONZA - Website by Tatjam, TajamSoft">
+   <meta name="description" content="Environmental Information Technologies">
+   <meta name="keywords" content="chconza,conza,Environmental Information Technologies">
+   <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'>
+   <link rel="stylesheet" href="../stylesheet.css" type="text/css">
+   <!-- All kinds of fav-icons (We are on the root folder, so not directory requirement)-->
+   <link rel="icon" type="image/png" href="../assets/favicons/favicon-32x32.png" sizes="32x32">
+   <link rel="icon" type="image/png" href="../assets/favicons/favicon-194x194.png" sizes="194x194">
+   <link rel="icon" type="image/png" href="../assets/favicons/favicon-96x96.png" sizes="96x96">
+   <link rel="icon" type="image/png" href="../assets/favicons/android-chrome-192x192.png" sizes="192x192">
+   <link rel="icon" type="image/png" href="../assets/favicons/favicon-16x16.png" sizes="16x16">
+   <link rel="shortcut icon" href="../assets/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+
+   <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+
+
+    <!-- Fonts: -->
+   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+</head>
+
+   <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="../assets/logo.svg" height=50 style="margin: -15px 0"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acerca <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="about.html"><b>Acerca de Nosotros</b></a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#"><b>Campos de Aplicación</b></a></li>
+                    <li><a href="#">Control de Parametros Medioambientales</a></li>
+                    <li><a href="#">Sistemas de transmisión de datos M2M</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Sistemas de Gestión y Tratamiento de la información</a></li>
+                    <li><a href="#">Distribución de Información y su Acceso</a></li>
+                    <li><a href="#">Pequeña Obra Civil Hidráulica</a></li>
+                    <li><a href="#">Instalación, Mantenimiento y Servicio Post-Venta</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Memorias y Gestión de la Adecuación a la Normativa Vigente</a></li>
+                    <li><a href="#">Realización de Recomendaciones de Aplicación</a></li>
+                </ul>
+            </li>
+            <li i class="active"><a href="#">Contacto</a></li>
+            <li><a href="../index.html">English</a></li>
+          </ul>
+       </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container theme-showcase" role="main">
+      <div id="welcome" class="jumbotron">
+        <h2>CONSTRUCCIONES HIDRAULICAS CONDE ZAPATA</h2>
+        <p>CIF VAT ESB24567422</p>
+      </div>
+   </div>
+
+
+
+   <div class="container .main-container">
+
+      <div class="panel panel-default">
+         <div class="panel-heading">Datos de Contacto</div>
+         <div class="panel-body">
+            <b>Valladolid: C/ San Ignacio 5, D, 1º</b>  <br><br>
+
+            <b>Email</b>: conza@chconza.com <br>
+
+            <b>Teléfono</b>: + 34 983 343167 <br><br>
+
+            <b>Tel. Administración</b>: + 34 636 967542 <br>
+            <b>Email Administración</b>: direccion@chconza.com <br><br>
+
+            <b>Tel. Dirección Técnica</b>: + 34 625 425676 <br>
+            <b>Email Dirección Técnica</b>: ingeniería@chconza.com <br>
+         </div>
+      </div>
+
+
+      <div class="panel panel-default">
+         <div class="panel-heading">Formulario</div>
+         <div class="panel-body">
+         Con este formulario puede contactarnos, la respuesta sera
+         enviada al correo que envio el e-mail.
+    <div class="form-container">
+     <form role="form" action="" method="post" >
+         <div class="form-group">
+           <label for="InputName">Su Nombre:</label>
+           <div class="input-group">
+             <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Escriba Su Nombre" required>
+             <span class="input-group-addon"></span></div>
+         </div>
+         <div class="form-group">
+           <label for="InputMessage">Su Mensaje:</label>
+           <div class="input-group">
+             <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+             <span class="input-group-addon"></span></div>
+         </div>
+         <!--<div class="form-group">
+           <label for="InputReal">What is 4+3? (Simple Spam Checker)</label>
+           <div class="input-group">
+             <input type="text" class="form-control" name="InputReal" id="InputReal" required>
+             <span class="input-group-addon"></span></div>
+         </div>-->
+         <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right" onclick="sendForm();">
+     </form>
+     <b>AVISO:</b> Tu mensaje se enviara como un email. Envia el mensaje desde tu cliente de correo
+</div>
+</div>
+
+   <!-- Our form script -->
+   <script>
+   function sendForm()
+   {
+      window.location.href = "mailto:conza@chconza.com?subject=Contacto de " + document.getElementById("InputName").value + "&body=" + document.getElementById("InputMessage").value;
+   }
+   </script>
+
+   <!--<a HREF="mailto:?subject=Contact By Antonio&body=Hi, I have found an issue in your website!">Submit</a>-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+
+    <!-- Actual Scripts -->
+
+    <!-- Auto-load redirect to spanish page
+    Will redirect to the spanish page if the url contains "?es" -->
+   <script>
+   window.onload = function()
+   {
+      for(var a = 0; a < window.location.href.length; a++)
+      {
+         var charOut = window.location.href[a];
+         if(charOut == "?")
+         {
+            if(window.location.href[a + 1] == 'e' &&
+               window.location.href[a + 2] == 's')
+               {
+                  top.location='es/index.html'
+               }
+         }
+      }
+   };
+
+   </script>
+
+  </body>
+</html>
